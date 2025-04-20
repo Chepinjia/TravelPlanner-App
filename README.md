@@ -26,7 +26,7 @@
 使用以下命令克隆此仓库：
 
 ```bash
-git clone https://github.com/your-username/travel-itinerary-planner.git
+git clone https://github.com/Chepinjia/TravelPlanner-App.git
 ```
 
 ### 3. 安装依赖项
@@ -34,7 +34,7 @@ git clone https://github.com/your-username/travel-itinerary-planner.git
 进入项目目录并安装所有必要的依赖项：
 
 ```bash
-cd travel-itinerary-planner
+cd TravelPlanner-App
 npm install
 ```
 
