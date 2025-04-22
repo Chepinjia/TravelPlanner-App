@@ -13,7 +13,7 @@ The Travel Recommendation App aims to enhance user travel experiences by providi
 Conduct user research to understand needs and pain points.
 Perform competitive analysis to identify market trends.
 Prioritize features based on research results.
-### System Desig
+### System Design
 Define the technology stack and tools for system architecture.
 Create database ER diagrams and define the data model.
 Design API interfaces for effective communication.
@@ -22,7 +22,7 @@ Create UI prototype diagrams for design review.
 Split development by module for independent testing.
 Develop core functionalities such as recommendation algorithms and booking systems.
 Write unit tests to ensure code quality.
-### Integration Testin
+### Integration Testing
 Perform multi-module co-tuning.
 Conduct performance pressure testing for system stability.
 Verify compatibility with third-party APIs.
