@@ -31,7 +31,7 @@ This project adopted the Agile methodology, using the Scrum framework, with fort
 
 ## Demo video
 
-Demo videos will be available soon.
+https://youtu.be/-JFYyzTutr4
 
 ## Installation guide
 
