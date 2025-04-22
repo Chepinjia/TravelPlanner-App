@@ -82,22 +82,6 @@ npx electron .
 
 The application window should open, allowing you to enter your destination and generate an itinerary.
 
-## Prepare a video demonstration
-
-### Test the application
-
-Before recording the demo, make sure the application is running correctly on your machine. Verify that the API key is configured correctly and that data can be fetched successfully.
-
-### Record a demo
-
-Use a screen recording tool (e.g. OBS Studio, Loom, or any built-in screen recorder) to record the application in action:
-- Demonstrate the input fields for destination and days.
-- Demonstrate the process of generating an itinerary.
-- Save the itinerary and validate the output file.
-
-### Upload video
-
-Share recorded videos with your team via email, Google Drive, or other preferred method.
 
 ### Troubleshooting
 
