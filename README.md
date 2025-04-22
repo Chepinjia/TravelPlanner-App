@@ -1,108 +1,130 @@
-感谢你提供的 `README.md` 文件内容。以下是整理后的 `README.md` 文件，它清晰地描述了如何安装、配置和运行 Travel Itinerary Planner 项目。你可以直接使用以下内容作为你的项目的 `README.md` 文件。
+Thank you for providing the contents of the `README.md` file. Below is a collated `README.md` file that clearly describes how to install, configure and run the Travel Itinerary Planner project. You can use the following directly as the `README.md` file for your project.
 
-```markdown
+``markdown
 # Travel Itinerary Planner
 
-**Travel Itinerary Planner** 是一个基于 Electron 和 Google Places API 构建的旅行行程规划工具。它可以为给定的目的地和天数生成智能行程，包括旅游景点、酒店以及推荐的交通方式。
+**Travel Itinerary Planner** is a travel itinerary planning tool built on the Electron and Google Places APIs. It generates a smart itinerary for a given destination and number of days, including tourist attractions, hotels, and recommended modes of transport.
+Software Development Process
+This project adopted the Agile methodology, using the Scrum framework, with fortnightly Sprints to deliver trip generation and atlas functionality, amongst other things.
 
-## 功能特性
+# Reasons for choosing Agile
 
-- **从 Google Places API 获取数据**：获取旅游景点和酒店信息。
-- **生成包含推荐交通方式（步行、地铁、出租车）的行程**。
-- **保存行程为文本文件以便轻松分享**。
+**Dynamic requirements** Agile allows for the prioritisation of high-demand functionality (e.g. real-time route adjustments) based on user feedback.
+**Technical Risk Control** Support for step-by-step validation of data integrations, such as switching to local caching for latency issues.
+**Collaboration Transparency** Utilise Jira for task tracking and daily stand-ups to ensure effective communication.
 
-## 演示视频
+## Core Functionality
+**Trip generation** Suggest activities based on user input.
+**Dynamic Adjustment**Alert users to foot traffic and suggest alternatives.
 
-演示视频即将上线。
+## Market Segments
+**Individual travellers (18-35 years old)** 65% growth expected by 2023.
+**Family users** 85% seeking child-friendly options.
+**Business travellers** looking to significantly reduce planning time.
 
-## 安装指南
+## Competitive Advantages
+**Personalised algorithms** improve user satisfaction.
+**Offline mode** local caching for areas with poor network coverage.
 
-### 1. 安装 Node.js
+## Features
 
-从 [Node.js官网](https://nodejs.org) 下载并安装适合您操作系统的版本。
+- **Get data from Google Places API**: get information about tourist attractions and hotels.
+- **Generate itinerary with recommended transport modes (walk, metro, taxi)**.
+- **Save itinerary as a text file for easy sharing**.
 
-### 2. 克隆仓库
+## Demo video
 
-使用以下命令克隆此仓库：
+Demo videos will be available soon.
+
+## Installation guide
+
+### 1. Install Node.js
+
+Download and install the appropriate version for your operating system from the [Node.js website](https://nodejs.org).
+
+### 2. Clone the repository
+
+Clone the repository using the following command:
 
 ```bash
 git clone https://github.com/Chepinjia/TravelPlanner-App.git
 ```
 
-### 3. 安装依赖项
+### 3. Installing dependencies
 
-进入项目目录并安装所有必要的依赖项：
+Go to the project directory and install all necessary dependencies:
 
 ```bash
 cd TravelPlanner-App
 npm install
 ```
 
-### 4. 设置环境变量
+### 4. Setting environment variables
 
-为了运行该项目，你需要在根目录下创建一个 `.env` 文件，并添加如下内容：
+In order to run the project, you need to create a `.env` file in the root directory and add the following:
 
 ```
 API_KEY=your_api_key_here
 ```
 
-请将 `your_api_key_here` 替换为你自己的 Google Places API 密钥。你可以在 [Google Cloud Console](https://console.cloud.google.com/) 中生成 API 密钥。
+Please replace `your_api_key_here` with your own Google Places API key. You can generate the API key in [Google Cloud Console](https://console.cloud.google.com/).
 
-确保将 `.env` 添加到 `.gitignore` 文件中以避免暴露敏感信息：
+Make sure to add `.env` to the `.gitignore` file to avoid exposing sensitive information:
 
-```
+``
 .env
 node_modules/
 ```
 
-## 运行应用程序
+## Running the application
 
-要启动应用程序，请运行以下命令：
-
+To start the application, run the following command:
 ```bash
 npx electron .
 ```
 
-应用窗口应打开，允许你输入目的地并生成行程。
+The application window should open, allowing you to enter your destination and generate an itinerary.
 
-## 准备视频演示
+## Prepare a video demonstration
 
-### 测试应用程序
+### Test the application
 
-在录制演示之前，请确保应用程序在您的机器上正确运行。验证 API 密钥是否正确配置且数据能够成功获取。
+Before recording the demo, make sure the application is running correctly on your machine. Verify that the API key is configured correctly and that data can be fetched successfully.
 
-### 录制演示
+### Record a demo
 
-使用屏幕录制工具（例如 OBS Studio、Loom 或任何内置屏幕录制器）记录应用程序的操作过程：
-- 展示目的地和天数的输入字段。
-- 演示生成行程的过程。
-- 保存行程并验证输出文件。
+Use a screen recording tool (e.g. OBS Studio, Loom, or any built-in screen recorder) to record the application in action:
+- Demonstrate the input fields for destination and days.
+- Demonstrate the process of generating an itinerary.
+- Save the itinerary and validate the output file.
 
-### 上传视频
+### Upload video
 
-通过电子邮件、Google Drive 或其他首选方法与团队共享录制的视频。
+Share recorded videos with your team via email, Google Drive, or other preferred method.
 
-## 故障排除
+### Troubleshooting
 
-### 错误：“API_KEY is missing”
+### Error: ‘API_KEY is missing’
 
-确保已在根目录下创建 `.env` 文件并添加了你的 API 密钥。检查 `.env` 文件格式是否正确：
+
+Make sure you have created the `.env` file in the root directory and added your API key. Check that the `.env` file is formatted correctly
 
 ```
 API_KEY=your_api_key_here
 ```
+## Contribution Guidelines
+Contributions are welcome! Please follow the steps below:
 
-### 没有返回数据
+-Fork this repository
+-Create a new branch (git checkout -b feature-branch)
+-Commit your changes (git commit -m ‘Add new feature’)
+-Push to the branch (git push origin feature-branch)
+-Committing a pull request
 
-确认你的 API 密钥有效并且有权访问 Google Places API。检查目的地输入是否有拼写错误或不支持的位置。
+## Licence
+This project is under the MIT licence, see the LICENSE file for details.
 
-### 其他问题
+## Acknowledgements
+Thank you to all who provided support for this project!
 
-按下 F12 打开浏览器控制台查看详细的错误消息。如果问题仍然存在，请联系项目维护者。
 
-## 许可证
-
-本项目遵循 MIT 许可证。详情请参阅 LICENSE 文件。
-```
-
-请注意，需要将 `https://github.com/your-username/travel-itinerary-planner.git` 替换为实际的 GitHub 仓库地址。如果你有任何特定的要求或想要添加更多信息，随时告诉我！ 😊
