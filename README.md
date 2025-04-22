@@ -1,6 +1,3 @@
-Thank you for providing the contents of the `README.md` file. Below is a collated `README.md` file that clearly describes how to install, configure and run the Travel Itinerary Planner project. You can use the following directly as the `README.md` file for your project.
-
-``markdown
 # Travel Itinerary Planner
 
 **Travel Itinerary Planner** is a travel itinerary planning tool built on the Electron and Google Places APIs. It generates a smart itinerary for a given destination and number of days, including tourist attractions, hotels, and recommended modes of transport.
