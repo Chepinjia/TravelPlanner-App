@@ -4,148 +4,113 @@
 Software Development Process
 This project adopted the Agile methodology, using the Scrum framework, with fortnightly Sprints to deliver trip generation and atlas functionality, amongst other things.
 Travel Recommendation App
-Overview
+
+## Overview
 The Travel Recommendation App aims to enhance user travel experiences by providing personalized recommendations for attractions, route planning, and hotel bookings.
 
-# Development Process
-**Needs Analysis**
-
+## Development Process
+### Needs Analysis
 Conduct user research to understand needs and pain points.
 Perform competitive analysis to identify market trends.
 Prioritize features based on research results.
-**System Desig**
-
+### System Desig
 Define the technology stack and tools for system architecture.
 Create database ER diagrams and define the data model.
 Design API interfaces for effective communication.
 Create UI prototype diagrams for design review.
-**Core Development**
-
+### Core Development
 Split development by module for independent testing.
 Develop core functionalities such as recommendation algorithms and booking systems.
 Write unit tests to ensure code quality.
-**Integration Testin**
-
+### Integration Testin
 Perform multi-module co-tuning.
 Conduct performance pressure testing for system stability.
 Verify compatibility with third-party APIs.
-**Deployment Go-liv**
-
+### Deployment Go-live
 Deploy the application in a cloud environment.
 Build a monitoring system for real-time health tracking.
 Publish in App Store and Google Play.
-Maintain Iterations:
-
+### Maintain Iterations
 Collect user feedback and conduct regular reviews.
 Continuously update security patches and optimize features.
-# Members (Roles & Responsibilities & Portion)
-**Product Manager**
 
+## Members (Roles & Responsibilities & Portion)
+### Product Manager
 Requirements gathering through surveys and interviews.
 Prioritize features based on user feedback.
 Communicate with users for experience insights.
 Plan the product roadmap for future releases.
-**Developers**
-
+### Developers
 Implement the hotel search and recommendation features.
 Develop the route planning module using mapping APIs.
 Ensure efficient backend development using Java and Django frameworks.
-**Testers**
-
+### Testers
 Conduct integration and performance testing.
 Report bugs and communicate with the development team.
-UI/UX Designer:
-
+### UI/UX Designer
 Map the user journey to identify optimization points.
 Iterate designs based on user feedback.
-# Schedule
-**Needs Analysis**
-Approximately 1 week
-
+## Schedule
+### Needs Analysis
+**Approximately 1 week**
 User research and interviews
 Competitor analysis
 Function prioritization
-**System Design**
-About 1 week
-
+### System Design
+**About 1 week**
 Determine technology selection and architecture design
-**Core Development**
-About 3 weeks
-
+### Core Development
+**About 3 weeks**
 Module development (recommendation algorithm, route planning, booking system)
 Write and execute unit tests
-**Integration Testing** 
-About 1 week
-
+### Integration Testing 
+**About 1 week**
 Multi-module debugging
 Performance testing
-**Deployment Go-live** 
-About 1 week
-
+### Deployment Go-live
+**About 1 week**
 Cloud environment deployment
 Monitoring system setup
-**Maintenance Iterations**
-Ongoing
-
+### Maintenance Iterations
+**Ongoing**
 Monthly user feedback collection
 Functional optimization and security updates
-# Algorithm
-**Recommendation System**
 
+## Algorithm
+### Recommendation System
 -**Data Collection**Gather user preferences and attraction data.
 -**Data Processing** Normalize and preprocess data.
--**Algorithms Used**
-Collaborative filtering for user-based recommendations.
-Content-based filtering based on attraction features.
-**Route Planning**
-
+-**Algorithms Used**Collaborative filtering for user-based recommendations.Content-based filtering based on attraction features.
+### Route Planning
 -**Input Collection** User-selected attractions and starting points.
--**Algorithms Used**
-Dijkstra's algorithm for shortest paths.
-A* search algorithm for complex path planning.
+-**Algorithms Used**Dijkstra's algorithm for shortest paths.A* search algorithm for complex path planning.
 -**Output** Recommended routes with navigation details.
-
-**Hotel Recommendations**
-
+### Hotel Recommendations
 -**Data Collection**Gather user reviews and ratings.
--**Algorithms Used**
-Generate a composite score for hotels based on user feedback and budget constraints.
-# Current Status of Your Software
-Work Completed
-**Requirements Analysis**
+-**Algorithms Used**Generate a composite score for hotels based on user feedback and budget constraints.
 
-Collected user requirements and defined target user groups.
-Defined core functional modules like recommendation systems and hotel bookings.
-**System Design**
+## Current Status of Your Software
+### Work Completed
+**Requirements Analysis**Collected user requirements and defined target user groups.Defined core functional modules like recommendation systems and hotel bookings.
+**System Design**Completed system architecture and database design.Developed API interface specifications.
+### Ongoing Work
+-**Core Function Development**Implementing personalized recommendation algorithms.Developing route planning functionalities with map services.Accessing real-time hotel data for booking.
 
-Completed system architecture and database design.
-Developed API interface specifications.
-**Ongoing Work**
--**Core Function Development**
-Implementing personalized recommendation algorithms.
-Developing route planning functionalities with map services.
-Accessing real-time hotel data for booking.
-# Future Plan
-Functionality Expansion
-**New Features**
-
-Multi-language support and social sharing features.
-Offline mode for access without internet.
-**Intelligent Recommendation System**
-
-Integrate deep learning for improved accuracy.
-Real-time data integration for optimized travel arrangements.
-**User Experience Optimization**
+## Future Plan
+### Functionality Expansion
+**New Features** Multi-language support and social sharing features.Offline mode for access without internet.
+**Intelligent Recommendation System**Integrate deep learning for improved accuracy.Real-time data integration for optimized travel arrangements.
+### User Experience Optimization
 -**UI Improvements**: Enhance interface design and interaction flow.
 -**Feedback Mechanism**: Regularly collect user feedback and provide support.
-**Marketing Strategy**
+### Marketing Strategy
 -**Promotion**: Use social media and partnerships to attract users.
 -**User Growth**: Implement referral incentives and loyalty programs.
-**Technical Updates**
+### Technical Updates
 -**Performance Monitoring**: Regularly check system performance.
 -**Security Enhancements**: Update security measures for user data protection.
 
-# Reasons for choosing Agile
+## Reasons for choosing Agile
 
 **Dynamic requirements** Agile allows for the prioritisation of high-demand functionality (e.g. real-time route adjustments) based on user feedback.
 **Technical Risk Control** Support for step-by-step validation of data integrations, such as switching to local caching for latency issues.
