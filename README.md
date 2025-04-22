@@ -7,6 +7,8 @@ Travel Recommendation App
 
 ## Overview
 The Travel Recommendation App aims to enhance user travel experiences by providing personalized recommendations for attractions, route planning, and hotel bookings.
+## Graphical
+![Example Image](https://github.com/Chepinjia/TravelPlanner-App/blob/main/%E6%88%AA%E5%B1%8F2025-04-23%2000.25.53.png)
 
 ## Development Process
 ### Needs Analysis
